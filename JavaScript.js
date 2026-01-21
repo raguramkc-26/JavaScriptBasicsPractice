@@ -267,7 +267,7 @@
 // main();
 
 //Arrays
-// let numbers = [4, 5, 3, 1, 2];
+//let numbers = [4, 5, 3, 1, 2];
 
 // let fruits = ['mango', 'orange', 'apple', 'grapes', 'banana'];
 
@@ -277,7 +277,7 @@
 // console.log(branch);
 
 // indexing
-// console.log(numbers[0]);
+//console.log(numbers[0]);
 
 // accessing a particular element
 // console.log(fruits[3]);
@@ -293,20 +293,23 @@
 // object -> instance of a class
 // console.log(numbers);
 
-// let numbers = [3, 2, 1, 5, 4];
-// let numbers = new Array(3, 2, 1, 5, 4);
+let numbers = [3, 2, 1, 5, 4];
+//let numbers = new Array(3, 2, 1, 5, 4);
 
 // array methods -> functions that are pre-written
 
 // push -> inserts values to the end of the array
-// numbers.push(6);
-// numbers.push(10, 7);
+//numbers.push(6);
+//console.log(numbers)
+//numbers.push(10, 7);
+//console.log(numbers)
 
 // length is a property and not a method
-// console.log(numbers.length);
+//console.log(numbers.length);
 
 // pop -> removes a value from the end of the array
-// numbers.pop();
+//numbers.pop();
+//console.log(numbers)
 // numbers.pop();
 
 // unshift -> inserts a value or more values at the beginning of the array
