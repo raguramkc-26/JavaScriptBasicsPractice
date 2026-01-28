@@ -347,3 +347,7 @@ let numbers = [3, 2, 1, 5, 4];
 //numbers.push(7);
 
 //console.log(numbers);
+
+let number=[3 , 5 , 7 , 6 , 1 , 4 , 2];
+number.sort()
+console.log(number)
