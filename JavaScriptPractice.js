@@ -316,3 +316,41 @@
 //(() => {
  // console.log("Welcome");
 //})(); 
+
+//Section 7
+const array = [20, 30, 40, 50, 60]
+//console.log(array)
+//console.log("First Element:",array[0])
+//console.log("Last Element:",array[array.length-1])
+//let sum = 0;
+//for (let i = 0; i < array.length; i++) {
+//  sum += array[i];
+//}
+//console.log("Sum of array:", sum);
+
+let evenCount = 0;
+for (let i = 0; i < array.length; i++) {
+  if (array[i] % 2 === 0) {
+    evenCount++;
+  }
+}
+console.log("Even numbers count:", evenCount);
+
+let reversed = [];
+for (let i = array.length - 1; i >= 0; i--) {
+  reversed.push(array[i]);
+}
+console.log("Reversed array:", reversed);
+
+array.push(99);
+console.log("After push:", array);
+
+array.pop();
+console.log("After pop:", array);
+
+array.unshift(5);
+console.log("After unshift:", array);
+
+array.shift();
+console.log("After shift:", array);
+

@@ -377,5 +377,5 @@
 //  console.log(value, index, array[index]);
 //})
 
-let numbers = [3, 4, 1, 5, 2];
-console.log(numbers.map(value => value ** 2))
+//let numbers = [3, 4, 1, 5, 2];
+//console.log(numbers.map(value => value ** 2))
