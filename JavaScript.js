@@ -293,7 +293,7 @@
 // object -> instance of a class
 // console.log(numbers);
 
-let numbers = [3, 2, 1, 5, 4];
+//let numbers = [3, 2, 1, 5, 4];
 //let numbers = new Array(3, 2, 1, 5, 4);
 
 // array methods -> functions that are pre-written
@@ -348,6 +348,34 @@ let numbers = [3, 2, 1, 5, 4];
 
 //console.log(numbers);
 
-let number=[3 , 5 , 7 , 6 , 1 , 4 , 2];
-number.sort()
-console.log(number)
+//let number=[3 , 5 , 7 , 6 , 1 , 4 , 2 , 35, 25, 9, 12];
+//number.sort()
+//number.sort((a , b) => {    //Compare function //Ascending order //Desending order
+  //return a-b;
+//})
+//function comparefn(a , b) {
+  //if (a < b) {
+  //  return -1;
+ // }
+ // else if (a === b) {
+  //  return 0;
+ // }
+ // else if (a > b) {
+ //   return 1;
+ // }
+//} 
+//number.sort(comparefn);
+//console.log(number)
+
+//let words = [ 'dog' , 'date' , 'apple' , 'celcius' , 'cap' , 'bat' , 'ball'];
+//let index = 0;
+//while (index !=7 ) {
+ // console.log(words[index]);
+ // index++;
+//}
+//words.forEach((value, index, array) => {
+//  console.log(value, index, array[index]);
+//})
+
+let numbers = [3, 4, 1, 5, 2];
+console.log(numbers.map(value => value ** 2))
